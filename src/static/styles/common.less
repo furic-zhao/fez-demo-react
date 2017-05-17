@@ -1,10 +1,17 @@
-@import "public/footer";
-@import "lib/rem";
+@import "sprite/sprite.less";
 body {
     padding-top: 50px;
 }
-
 .starter-template {
     padding: 40px 15px;
     text-align: center;
+}
+.icon {
+    display: inline-block;
+}
+.icon-weibo {
+    .sprite(@weibo);
+}
+.icon-weixin {
+    .sprite(@weixin);
 }
