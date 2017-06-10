@@ -22,10 +22,7 @@ export default {
             available: true,
             js: [{
                 target: "a-vendor-react.js",
-                contain: ["**/react.js"]
-            }, {
-                target: "b-vendor-react-dom.js",
-                contain: ["**/react-dom.js"]
+                contain: ["**/react.js", "**/react-dom.js"]
             }],
             css: [{
                 target: "vendor-bootstrap.css",
