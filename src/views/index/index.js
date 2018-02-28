@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import Header from 'public/module/common/header';
+import Header from 'views/public/module/common/header';
 import Jumbotron from './module/jumbotron/index';
 import Fezdesc from './module/fezdesc/index';
-import Footer from 'public/module/common/footer';
+import Footer from 'views/public/module/common/footer';
 
 
 let Page = React.createClass({
