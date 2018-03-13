@@ -1,7 +1,7 @@
 let frames = [{
-    title: "Nodejs",
-    desc: "FEZ 构建在 NodeJS 基于 Chrome V8 引擎的 JavaScript 运行环境，其事件驱动非阻塞的特性，极其快速的编译前端各种资源",
-    content: `<div id="home-intro">
+  title: "Nodejs",
+  desc: "FEZ 构建在 NodeJS 基于 Chrome V8 引擎的 JavaScript 运行环境，其事件驱动非阻塞的特性，极其快速的编译前端各种资源",
+  content: `<div id="home-intro">
 
         <p>Node.js® is a JavaScript runtime built on <a href="https://developers.google.com/v8/">Chrome's V8 JavaScript engine</a>.
 Node.js uses an event-driven, non-blocking I/O model that makes it
@@ -57,14 +57,14 @@ source libraries in the world.</p>
           Or have a look at the <a href="https://github.com/nodejs/LTS#lts-schedule">LTS schedule.</a>
         </p>
       </div>`,
-    viewMore: {
-        text: "更多信息",
-        href: "https://nodejs.org/"
-    }
+  viewMore: {
+    text: "更多信息",
+    href: "https://nodejs.org/"
+  }
 }, {
-    title: "NPM",
-    desc: "FEZ 使用 NPM 接入全球最大的开源生态系统，具备无限的功能扩展能力，可整合国际前沿的开源框架，适应瞬息万变的技术更替",
-    content: `<h1 class="title em-default type-neutral-11">
+  title: "NPM",
+  desc: "FEZ 使用 NPM 接入全球最大的开源生态系统，具备无限的功能扩展能力，可整合国际前沿的开源框架，适应瞬息万变的技术更替",
+  content: `<h1 class="title em-default type-neutral-11">
           Build amazing things
         </h1>
         <p class="h5 em-default type-neutral-11 pbxl">
@@ -73,26 +73,26 @@ source libraries in the world.</p>
           assemble them in powerful new ways.
         </p>
         <a id="main-cta" href="#pane-homepage-pricing" class="btn btn-highlight-3 mrl" data-event-name="homepage-hero-cta">Get started</a>`,
-    viewMore: {
-        text: "更多信息",
-        href: "https://www.npmjs.com/"
-    }
+  viewMore: {
+    text: "更多信息",
+    href: "https://www.npmjs.com/"
+  }
 }, {
-    title: "Gulp",
-    desc: "FEZ 整合Gulp的众多插件，编译、优化和组织前端复杂的模块及静态资源，喝着可乐儿、哼着小曲儿，自动化完成前端大量重复工作",
-    content: `<h1 class="heading text-center">Automate and enhance your workflow</h1><h2 class="paragraph">
+  title: "Gulp",
+  desc: "FEZ 整合Gulp的众多插件，编译、优化和组织前端复杂的模块及静态资源，喝着可乐儿、哼着小曲儿，自动化完成前端大量重复工作",
+  content: `<h1 class="heading text-center">Automate and enhance your workflow</h1><h2 class="paragraph">
           gulp is a toolkit for automating painful or time-consuming tasks in your development workflow, so you can stop messing around and build something.
         </h2><div class="ctas">
           <a class="ctas-button" href="https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md">Get Started</a>
         </div>`,
-    viewMore: {
-        text: "更多信息",
-        href: "http://gulpjs.com/"
-    }
+  viewMore: {
+    text: "更多信息",
+    href: "http://gulpjs.com/"
+  }
 }, {
-    title: "Browserify",
-    desc: "FEZ 使用 Browserify 模块化组织和管理项目的各个功能模块，极大提升项目的可维护性、功能复用性，并实现积木式的搭建网页",
-    content: `<section id="top-home-section" class="top-section color-a">
+  title: "Browserify",
+  desc: "FEZ 使用 Browserify 模块化组织和管理项目的各个功能模块，极大提升项目的可维护性、功能复用性，并实现积木式的搭建网页",
+  content: `<section id="top-home-section" class="top-section color-a">
       <div id="top-home-image"></div>
 
        <h3 id="top-subtitle" class="large-font">Browserify lets you require(<span class="color-d">'modules'</span>) in the browser by bundling up all of your dependencies.</h3>
@@ -102,14 +102,14 @@ source libraries in the world.</p>
         </button>
       </a>
     </section>`,
-    viewMore: {
-        text: "更多信息",
-        href: "http://browserify.org/"
-    }
+  viewMore: {
+    text: "更多信息",
+    href: "http://browserify.org/"
+  }
 }, {
-    title: "Bower",
-    desc: "FEZ 可配置使用 Bower 搜索、安装、更新和卸载如JavaScript、CSS之类的网络资源，通过自动化注入技术完美解决复杂的框架包管理问题",
-    content: `<div class="main">
+  title: "Bower",
+  desc: "FEZ 可配置使用 Bower 搜索、安装、更新和卸载如JavaScript、CSS之类的网络资源，通过自动化注入技术完美解决复杂的框架包管理问题",
+  content: `<div class="main">
 <p class="lead">Web sites are made of lots of things — frameworks, libraries, assets, and utilities. Bower manages all these things for you.</p>
 <p>Keeping track of all these packages and making sure they are up to date (or set to the specific versions you need) is tricky. Bower to the rescue!</p>
 <p>Bower can manage components that contain HTML, CSS, JavaScript, fonts or even image files. Bower doesn’t concatenate or minify code or do anything else - it just installs the right versions of the packages you need and their dependencies.</p>
@@ -149,60 +149,60 @@ source libraries in the world.</p>
 </p>
 
 </div>`,
-    viewMore: {
-        text: "更多信息",
-        href: "https://bower.io/"
-    }
+  viewMore: {
+    text: "更多信息",
+    href: "https://bower.io/"
+  }
 }, {
-    title: "BorwserSync",
-    desc: "FEZ 使用 Browsersync 让浏览器实时快速的响应前端各种文件的更改并自动刷新页面，亦可实时同步各个终端，提高至少30%的开发效率",
-    content: `<h1 class="hook">Time-saving synchronised browser testing.</h1><p class="ronseal">It’s wicked-fast and totally free.</p><p class="video"><a class="video__link" href="#"></a></p><p class="how-to"></p><p class="how-to__command">npm install -g browser-sync</p><p class="cta"><a class="button button--primary" href="#install" title="Get Started">Get Started</a></p><div class="player"><p>'bonjour</p></div>`,
-    viewMore: {
-        text: "更多信息",
-        href: "https://browsersync.io/"
-    }
+  title: "BorwserSync",
+  desc: "FEZ 使用 Browsersync 让浏览器实时快速的响应前端各种文件的更改并自动刷新页面，亦可实时同步各个终端，提高至少30%的开发效率",
+  content: `<h1 class="hook">Time-saving synchronised browser testing.</h1><p class="ronseal">It’s wicked-fast and totally free.</p><p class="video"><a class="video__link" href="#"></a></p><p class="how-to"></p><p class="how-to__command">npm install -g browser-sync</p><p class="cta"><a class="button button--primary" href="#install" title="Get Started">Get Started</a></p><div class="player"><p>'bonjour</p></div>`,
+  viewMore: {
+    text: "更多信息",
+    href: "https://browsersync.io/"
+  }
 }]
 
 let index = {
-    fezdesc: "FEZ 前端模块化工程开发框架",
-    jumbotron: {
-        title: "Hello, FEZ And React!",
-        content: "这是一个使用 FEZ 构建的前端模块化开发示例，演示了基于React单文件组件的开发结构。",
-        button: {
-            name: `<i class="fa fa-github-alt"></i> GitHub`,
-            href: "https://github.com/furic-zhao/fez"
-        }
+  fezdesc: "FEZ 前端模块化工程开发框架",
+  jumbotron: {
+    title: "Hello, FEZ And React!",
+    content: "这是一个使用 FEZ 构建的前端模块化开发示例，演示了基于React单文件组件的开发结构。",
+    button: {
+      name: `<i class="fa fa-github-alt"></i> GitHub`,
+      href: "https://github.com/furic-zhao/fez"
     }
+  }
 }
 
 let list = {
-    jumbotron: {
-        title: "FEZ And React Frame!",
-        content: "这是一个FEZ整合React的列表展示页，请点击下面列表的 Detail 按钮进入详情页浏览",
-        button: {
-            name: "查看更多信息",
-            href: "http://fez.hestudy.com"
-        }
+  jumbotron: {
+    title: "FEZ And React Frame!",
+    content: "这是一个FEZ整合React的列表展示页，请点击下面列表的 Detail 按钮进入详情页浏览",
+    button: {
+      name: "查看更多信息",
+      href: "http://fez.hestudy.com"
     }
+  }
 }
 
 let common = {
-    siteName: "FEZ React DEMO",
+  siteName: "FEZ React DEMO",
 
-    navData: [{
-        name: "首页",
-        href: "index.html"
-    }, {
-        name: "FEZ基本架构",
-        href: "list.html"
-    }],
+  navData: [{
+    name: "首页",
+    href: "index.html"
+  }, {
+    name: "FEZ基本架构",
+    href: "list.html"
+  }],
 
-    footerText: "© 2017 FEZ 前端模块化工程开发框架 Created by Furic.zhao"
+  footerText: "©2017-2018 FEZ前端模块化工程开发框架 Created by Furic.zhao"
 }
 
 export default {
-    "index": index,
-    "list": list,
-    "frames": frames,
-    "common": common
+  index: index,
+  list: list,
+  frames: frames,
+  common: common
 }

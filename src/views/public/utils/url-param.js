@@ -1,7 +1,5 @@
-import Q from 'q'
-
 export default (name, url) => {
-    return Q.Promise((resolve, reject) => {
+    return new Promise((resolve, reject) => {
         let reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)"),
             r_txt = url ? url : window.location.search
 

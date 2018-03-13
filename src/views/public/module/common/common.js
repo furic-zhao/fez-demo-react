@@ -1,20 +1,18 @@
-import Q from 'q'
-
 import ApiData from 'views/public/demo-data'
 
 export default {
     navList() {
-            return Q.Promise((resolve, reject) => {
+            return new Promise((resolve, reject) => {
                 resolve(ApiData.common.navData)
             })
         },
         siteName() {
-            return Q.Promise((resolve, reject) => {
+            return new Promise((resolve, reject) => {
                 resolve(ApiData.common.siteName)
             })
         },
         footerText() {
-            return Q.Promise((resolve, reject) => {
+            return new Promise((resolve, reject) => {
                 resolve(ApiData.common.footerText)
             })
         }

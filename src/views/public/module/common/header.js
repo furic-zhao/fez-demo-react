@@ -1,5 +1,4 @@
 import Service from './common'
-import Q from 'q'
 
 export default React.createClass({
     getInitialState() {
@@ -11,7 +10,7 @@ export default React.createClass({
         }
     },
     componentDidMount() {
-        Q.all([
+        Promise.all([
             Service.siteName(),
             Service.navList()
         ]).then((data) => {

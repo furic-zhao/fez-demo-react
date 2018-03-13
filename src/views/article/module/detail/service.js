@@ -1,10 +1,8 @@
 import ApiData from 'views/public/demo-data'
 
-import Q from 'q'
-
 export default {
     renderData(id = "") {
-        return Q.Promise((resolve, reject) => {
+        return new Promise((resolve, reject) => {
             let rtnData = {}
 
             for (let v of ApiData.frames) {

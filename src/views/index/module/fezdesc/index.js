@@ -18,9 +18,11 @@ export default React.createClass({
         return (
             <div className="container fezdesc">
         <div className="row">
-            <div className="col-md-12">
+            <div className="col-md-12 fez-content">
                 <h3>{this.state.fezdesc}</h3>
-                <div className="fez-big-logo"></div>
+                <svg>
+                  <use xlinkHref='#fez-fezlogo' />
+                </svg>
             </div>
         </div>
         <hr />
